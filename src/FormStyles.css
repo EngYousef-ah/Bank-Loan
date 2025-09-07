@@ -20,6 +20,12 @@
     width: 53%;
     color: green;
 }
+@media only screen and (max-width:600px) {
+    
+    #modal-content {
+    width: 80%;
+}
+}
 
 #loan-form {
     background-color: rgb(51, 0, 170);
@@ -30,6 +36,14 @@
     width: 50%;
     margin-top: 5rem;
 
+}
+
+
+@media only screen and (max-width:600px) {
+    
+    #loan-form {
+        width: 80%;
+    }
 }
 
 hr {
